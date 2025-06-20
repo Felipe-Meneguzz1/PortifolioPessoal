@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="icon" href="./image/Logo.png" type="image/png">
+    <!-- Bootstrap CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Ícones Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Prism.js CSS (tema escuro opcional) -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+
+    <!-- EmailJS (lib externa) -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/root.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#Home" aria-label="Ir para o início">
+                    <img src="./image/LogoBalck.png" alt="Logo" width="60" height="42" class="me-2">
+                    <span>Felipe Meneguzzi</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#Home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="Home" class="intro-section py-5 bg-dark text-white">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-md-6 text-center mb-4 mb-md-0">
+                        <img src="./image/Perfil.jpeg" alt="Fotoo" class="rounded-circle mb-3" width="190" height="200">
+                        <p>⚙️ Sou um profissional experiente em Desenvolvimento Back-End com foco em Java e seus
+                            frameworks, como Spring Boot e Java Swing.
+                            Atuo atualmente como Analista de Dados na área bancaria.
+                            Tenho conhecimento em redes e administração de servidores Windows. ⚙️</p>
+
+                        <div class="links d-flex justify-content-center gap-3 mb-3">
+                            <a href="https://github.com/Felipe-Meneguzz1" target="_blank" class="icon-link">
+                                <i class="bi bi-github fs-4 text-white"></i></a>
+                            <a href="https://www.linkedin.com/in/felipe-meneguzzi-81a02522a/" target="_blank"
+                                class="icon-link">
+                                <i class="bi bi-linkedin fs-4 text-white"></i></a>
+                            <a href="https://www.instagram.com/fe_meneguzzi/?igsh=ZWlrZXRjMjdtdjQ1#" target="_blank"
+                                class="icon-link">
+                                <i class="bi bi-instagram fs-4 text-white"></i></a>
+                            <a href="#contact" class="icon-link">
+                                <i class="bi bi-envelope fs-4 text-white"></i></a>
+                            <a href="./docs/Curriculum Felipe Meneguzzi.pdf" download class="btn btn-outline-warning">
+                                Baixar Currículo
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="code-card p-4 rounded"
+                            style="background: #0d1117; color: #c9d1d9; font-family: monospace;">
+                            <div class="mb-3 d-flex gap-2">
+                                <span class="dot bg-danger rounded-circle"></span>
+                                <span class="dot bg-warning rounded-circle"></span>
+                                <span class="dot bg-success rounded-circle"></span>
+                            </div>
+                            <pre><code class="language-javascript">
+const coder = {
+    name: 'Felipe Meneguzzi',
+    company: 'Coop Cred. Uniprime Sul',
+    location: 'Brasil',
+    skills: ['Java', 'Spring Boot', 'SQLServer', 'API Rest',
+             'Microservices', 'Docker', 'AWS'],
+    hireable: true,
+    contact: 'lipemeneguzzi@gmail.com'
+};
+</code></pre>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="sobre-conhecimentos-container">
+
+            <section class="sobre">
+                <h2 class="titulo-secao">Sobre Mim</h2>
+
+                <div class="accordion accordion-flush custom-accordion" id="accordionFlushExample">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-formacao" aria-expanded="false" aria-controls="flush-formacao">
+                                <i class="fas fa-graduation-cap me-2 text-warning"></i> Formação
+                            </button>
+                        </h2>
+                        <div id="flush-formacao" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Minha trajetória acadêmica na área da tecnologia começou em 2023, logo após a conclusão
+                                do ensino médio.
+                                Iniciei o curso de Ciências da Computação na Universidade Regional Integrada (URI), em
+                                Erechim/RS.
+                                A conclusão está prevista para 2026.
+                                Após a graduação, pretendo me especializar em FinTech, com foco no setor financeiro.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-habilidades" aria-expanded="false"
+                                aria-controls="flush-habilidades">
+                                <i class="fas fa-code me-2 text-info"></i> Habilidades
+                            </button>
+                        </h2>
+                        <div id="flush-habilidades" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Tenho sólido conhecimento em desenvolvimento back-end, com forte ênfase em Java e seus
+                                diversos frameworks,
+                                especialmente o Spring Boot.
+                                Tenho experiência no desenvolvimento de APIs RESTful e microserviços utilizando esse
+                                framework.
+                                Atualmente, atuo na área de Análise de Dados, utilizando SQL Server para manipulação e
+                                análise de dados.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-experiencia" aria-expanded="false"
+                                aria-controls="flush-experiencia">
+                                <i class="fas fa-briefcase me-2 text-success"></i> Experiências
+                            </button>
+                        </h2>
+                        <div id="flush-experiencia" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Atualmente, atuo como Analista de Dados na Coop Cred Uniprime Sul desde 2024.
+                                Sou responsável por analisar e interpretar dados financeiros, além de desenvolver
+                                relatórios e dashboards
+                                para apoiar a tomada de decisões estratégicas.<br><br>
+                                Também participei de uma Bolsa de Estudos na Compass UOL,
+                                onde pude aprimorar minhas habilidades em programação e desenvolvimento de software.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-metas" aria-expanded="false" aria-controls="flush-metas">
+                                <i class="fas fa-bullseye me-2 text-danger"></i> Metas
+                            </button>
+                        </h2>
+                        <div id="flush-metas" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                Minhas principais metas envolvem aprofundar meus conhecimentos em tecnologias voltadas
+                                ao setor financeiro,
+                                como análise preditiva e machine learning aplicado a dados bancários. Busco atuar em
+                                empresas inovadoras do segmento FinTech,
+                                contribuindo com soluções eficientes e seguras. A médio prazo, pretendo realizar uma
+                                especialização na área de Engenharia de Dados ou Ciência de Dados.
+                                E aprender uma Nova linguagem, como Ruby ou Python.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="conhecimentos">
+                <h2>Tecnologias</h2>
+                <div class="grid-cards">
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:java" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:spring-wordmark" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:thymeleaf-wordmark" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:microsoftsqlserver-wordmark" width="64" height="64"></iconify-icon>
+                    </div>
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:mysql-wordmark" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="logos:aws" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:insomnia-wordmark" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:github-wordmark" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:docker-wordmark" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="carbon:microservices-1" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:csharp" width="64" height="64"></iconify-icon>
+                    </div>
+
+                    <div class="knowledge-card">
+                        <iconify-icon icon="devicon:intellij" width="64" height="64"></iconify-icon>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="projects" class="intro-section py-5 bg-dark text-white">
+            <h2 class="text-center mb-2 ">Projetos</h2>
+            <p class="text-center">Passe para o lado e descubra alguns projetos que realizei.</p>
+            <div class="container">
+
+                <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center gap-4 mb-5">
+                                <!-- Projeto 1 -->
+                                <div class="card bg-dark text-white shadow-lg border-0" style="width: 25rem;">
+                                    <img src="./image/MoneyMap1.jpeg" class="card-img-top p-4 rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">MoneyMap Investimentos</h5>
+                                        <p class="card-text">Um dos meus ultilimos projetos realizados. Tratasse de uma
+                                            Site
+                                            web
+                                            de gerenciamento de ativos, com base na Bolsa de Valores.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="#" class="btn btn-outline-light px-4">Saiba Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center gap-4 mb-5">
+                                <!-- Projeto 2 -->
+                                <div class="card bg-dark text-white shadow-lg border-0" style="width: 25rem;">
+                                    <img src="./image/AutoStock Car.png" class="card-img-top p-4 rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Auto Stock Car</h5>
+                                        <p class="card-text">Projeto realizado puramente em Java, dês do Back até o
+                                            front. É
+                                            um software ERP voltado
+                                            para o controle de estoque de peças automotivas.
+                                        </p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="https://github.com/Felipe-Meneguzz1/AutoStockCar"
+                                                class="btn btn-outline-light px-4">Saiba Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center gap-4 mb-5">
+                                <!-- Projeto 3-->
+                                <div class="card bg-dark text-white shadow-lg border-0" style="width: 25rem;">
+                                    <img src="./image/download.jpg" class="card-img-top p-4 rounded"
+                                        alt="Imagem Intra Sul">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Intra Sul</h5>
+                                        <p class="card-text">Intranet desenvolvida para a empresa em qual trabalho.
+                                            Essa intranet busca auxilixar os colaboradores a localizarem links, ver
+                                            dashboards,
+                                            e politicas internas da empresa.
+                                        </p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="#" class="btn btn-outline-light px-4">Projeto Privado</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center gap-4 mb-5">
+                                <!-- Projeto 4 -->
+                                <div class="card bg-dark text-white shadow-lg border-0" style="width: 25rem;">
+                                    <img src="./image/Csharp.png" class="card-img-top p-4 rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Processamento de Imagem</h5>
+                                        <p class="card-text">Projeto da Faculdade usando C#, totalmente desenvolvido
+                                            para
+                                            tratar os difernetes
+                                            problemas e estilos de imagem, desenvolvido sem nenhuma ultilização de
+                                            bibliotecas externas.
+                                        </p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="https://github.com/Felipe-Meneguzz1/ProcessamentoDeImagem"
+                                                class="btn btn-outline-light px-4">Saiba Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center gap-4 mb-5">
+                                <!-- Projeto 5 -->
+                                <div class="card bg-dark text-white shadow-lg border-0" style="width: 25rem;">
+                                    <img src="./image/download.png" class="card-img-top p-4 rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">API Rest - Estacionamento</h5>
+                                        <p class="card-text">API Desenvolvida para fazer o gerencionamento de um parque
+                                            de
+                                            estacionamento.
+                                            Desenvolvida puramente em Spring, e ultizando MongoDB.
+                                        </p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="https://github.com/Felipe-Meneguzz1/Park-API"
+                                                class="btn btn-outline-light px-4">Saiba Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center gap-4 mb-5">
+                                <!-- Projeto 5 -->
+                                <div class="card bg-dark text-white shadow-lg border-0" style="width: 25rem;">
+                                    <img src="./image/download.png" class="card-img-top p-4 rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">API Rest - WorkShop</h5>
+                                        <p class="card-text">Este projeto foi desenvolvido como parte de um programa de
+                                            bolsa
+                                            e tem como objetivo demonstrar os fundamentos de uma aplicação estilo "rede
+                                            social",
+                                            onde usuários podem publicar posts, curtir e comentar. Toda a aplicação foi
+                                            construída
+                                            utilizando Java com Spring Boot e banco de dados MongoDB, focando em boas
+                                            práticas de
+                                            desenvolvimento e organização de código.
+                                        </p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="https://github.com/Felipe-Meneguzz1/WorkShop-Spring-MongoDB"
+                                                class="btn btn-outline-light px-4">Saiba Mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controles -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section py-5 text-white">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Vamos conversar?</h2>
+                    <p class="lead">Se você tem alguma dúvida, sugestão ou gostaria de me contatar para algum projeto,
+                        fique à vontade
+                        para me mandar uma mensagem.</p>
+                </div>
+
+                <div class="row align-items-center justify-content-center">
+                    <!-- Coluna com imagem ilustrativa -->
+                    <div class="col-md-6 mb-4 mb-md-0 text-center">
+                        <img src="./image/self-control.png" alt="Contato" class="img-fluid" style="max-width: 250px;">
+                    </div>
+
+                    <!-- Coluna com o formulário -->
+                    <div class="col-md-6">
+                        <div class="card bg-dark text-light shadow-lg border-0 p-4">
+                            <form id="contact-form" action="https://formsubmit.co/lipemeneguzzi@gmail.com"
+                                method="POST">
+                                <div class="mb-3">
+                                    <label for="title" class="form-label">Assunto</label>
+                                    <input type="text" class="form-control" id="title" name="title"
+                                        placeholder="Assunto" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="name" name="from_name"
+                                        placeholder="Seu nome" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="email" name="reply_to"
+                                        placeholder="Seu e-mail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Mensagem</label>
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Sua mensagem" rows="4" required></textarea>
+                                </div>
+
+                                <!-- Evita captcha -->
+                                <input type="hidden" name="_captcha" value="false">
+
+                                <!-- Redireciona após o envio -->
+                                <input type="hidden" name="_next" value="http://127.0.0.1:3000/">
+
+                                <div class="d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Felipe Meneguzzi. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <link rel="stylesheet" href="./script.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- Seu script personalizado -->
+    <script src="script.js"></script>
+    <!-- Prism.js JS -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <!-- Suporte a linguagem JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+
+</body>
+
+</html>
