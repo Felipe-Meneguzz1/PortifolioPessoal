@@ -12,23 +12,9 @@ Sou um profissional experiente em Desenvolvimento Back-End com foco em Java e se
 - HTML5
 - CSS3
 - Bootstrap 5
-- JavaScript (mínimo)
+- JavaScript
 - Ícones via [Bootstrap Icons](https://icons.getbootstrap.com/)
 - Imagens e PDF
-
-## 📂 Estrutura do Projeto
-
-```
-├── index.html
-├── css/
-│   └── style.css
-├── image/
-│   ├── Logo.png
-│   └── Perfil.jpeg
-├── docs/
-│   └── Curriculum Felipe Meneguzzi.pdf
-└── README.md
-```
 
 ## 📄 Funcionalidades
 
@@ -51,7 +37,7 @@ Sou um profissional experiente em Desenvolvimento Back-End com foco em Java e se
 
 ## 📬 Contato
 
-📧 [felipe.seuemail@email.com]  
+📧 lipemeneguzzi@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/felipe-meneguzzi-81a02522a/)  
 🐙 [GitHub](https://github.com/Felipe-Meneguzz1)
 
