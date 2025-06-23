@@ -1,39 +1,40 @@
 
-# 💼 Portfólio Pessoal - Felipe Meneguzzi
+# 💼 Portfólio - Felipe Meneguzzi
 
-Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, experiências e projetos como desenvolvedor Back-End.
+Bem-vindo ao meu portfólio! Este projeto tem como objetivo apresentar um pouco mais sobre mim, minhas experiências profissionais, projetos desenvolvidos e habilidades técnicas como Desenvolvedor Back-End.
 
-## 🧑 Sobre Mim
+---
 
-Sou um profissional experiente em Desenvolvimento Back-End com foco em Java e seus frameworks, como Spring Boot e Java Swing. Atualmente atuo como Analista de Dados na área bancária e tenho conhecimento em redes e administração de servidores Windows.
+## 🧠 Sobre
 
-## 🚀 Tecnologias Utilizadas
+Este portfólio foi desenvolvido para ser simples, responsivo e direto ao ponto. Com ele, você pode:
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
-- Ícones via [Bootstrap Icons](https://icons.getbootstrap.com/)
-- Imagens e PDF
+- Conhecer quem sou
+- Ver meus principais projetos
+- Acessar minhas redes sociais
+- Baixar meu currículo em PDF
+- Entrar em contato diretamente via formulário
 
-## 📄 Funcionalidades
+---
 
-- Navegação suave entre as seções com âncoras (`scroll-behavior: smooth`)
-- Header fixo com navegação responsiva
-- Cards de habilidades e conhecimentos
-- Sessão de apresentação pessoal com imagem e texto
-- Botão de download do currículo em PDF
-- Links sociais (GitHub, LinkedIn, Instagram, Email)
-- Design responsivo e adaptado para dispositivos móveis
+## 🛠️ Tecnologias Utilizadas
 
-## 🎯 Seções
+- **HTML5**
+- **CSS3** (com Bootstrap 5)
+- **JavaScript**
+- **Iconify** (para exibição de ícones de tecnologias)
+- **FormSubmit** (envio de formulário por e-mail)
 
-- **Início**: Logo e nome com navegação.
-- **Sobre**: Informações sobre mim e minha experiência.
-- **Projetos**: Destaque de projetos desenvolvidos.
-- **Experiências**: Informações profissionais e acadêmicas.
-- **Contato**: Formulário e links de redes sociais.
+---
 
+## ✨ Funcionalidades
+
+- 📱 **Responsivo** — adaptado para dispositivos móveis
+- 🔗 **Links diretos** para redes sociais (GitHub, LinkedIn, Instagram)
+- 📤 **Formulário de Contato** funcional (via FormSubmit)
+- 🖼️ **Seção de Projetos** com carrossel de visualização
+- 💾 **Download de Currículo**
+- 📌 **Navbar Fixa** com navegação por seções
 
 ## 📬 Contato
 
